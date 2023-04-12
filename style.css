@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Michroma&family=Silkscreen&display=swap");
@@ -12,26 +16,19 @@ html {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* font-family: "Michroma", sans-serif; */
-    /* background-color: #0a192f; */
-    /* color: white; */
 }
 
 /* Headings */
 #about-heading {
-    margin: 20px 50px;
-    font-size: 2.2rem;
-    color: rgb(0, 153, 255);
     font-family: "Michroma", sans-serif;
+    margin: 20px 50px;
 
 }
 
 #education-heading,
 #work-heading,
 #experience-heading {
-    margin: 20px 280px;
-    font-size: 2.2rem;
-    color: rgb(0, 153, 255);
+    margin: 20px 320px;
     font-family: "Michroma", sans-serif;
 
 }
