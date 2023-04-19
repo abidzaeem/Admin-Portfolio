@@ -8,3 +8,13 @@ function changeColor() {
     rgb.style.color = "black";
   }
 }
+
+// Submit Validation
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let message = document.getElementById("message").value;
+let submit = document.getElementById("valid_submit")
+let regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;
+submit.addEventListener(click, function(){
+  return alert("sdsads");
+})

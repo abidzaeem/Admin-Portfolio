@@ -37,3 +37,51 @@ html {
 .experience-steps {
     margin-left: 200px;
 }
+
+/* Resposive */
+@media only screen and (max-width:450px) {
+
+    nav {
+        margin: 20px 0px;
+    }
+
+    /* Introduction_Buttons */
+    .btn_2 {
+        display: inline-block;
+        margin: 0px 25px;
+    }
+
+    /* About_Heading */
+    #about-heading,
+
+    #experience-heading {
+        margin: 0px 110px;
+    }
+
+    /* Education */
+    #education-heading {
+        margin: 0px 85px;
+    }
+
+    .education_container {
+        margin: 0px -190px;
+    }
+
+    /* Work */
+    #work-heading {
+        margin: 0px 125px;
+    }
+
+    #pdf_invoice {
+        margin-top: 30px;
+    }
+
+    /* Experience */
+    #experience-heading {
+        margin: 0px 70px;
+    }
+
+    .experience_container {
+        margin: 0px 20px;
+    }
+}
